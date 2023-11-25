@@ -25,6 +25,8 @@
 !INSTALL.md
 !MANUAL.txt
 !Makefile
+!project-files.mk
+!project-versions.mk
 !README.md
 !README.template
 !RELEASE-CHECKLIST
