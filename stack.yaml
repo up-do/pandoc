@@ -16,24 +16,11 @@ packages:
   - ./pandoc-lua-engine
   - ./pandoc-server
 
-# We have 1 source packages listed in this order:
-#   * external 0
-#   * internal 1
-#   * external forks 0
-#   * internal forks 0
+# We have 1 internal dependency source package.
 extra-deps:
-
-  # Source Packages, external (3rd party).
-
   # Source Packages, internal to this organisation (private and public).
   - git: https://github.com/jgm/typst-hs
     commit: 71c24946e098ce8af0b8de4004711e4ee732f2d0
-
-  # Source Packages, external (3rd party) forks of other repositories.
-  # Can we help upstream?
-
-  # Source Packages, internal forks of other repositories.
-  # Can we upstream and unfork?
 
   # Package versions for published packages either not on Stackage or
   # not matching the version on Stackage for the resolver we use.
